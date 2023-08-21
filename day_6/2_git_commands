@@ -15,6 +15,11 @@
 7. git add .
     adds all the changes to the git repo
 
-8. .gitignore
+8. git commit -m "<commit-message>"
+
+9. git remote add origin <remote-ssh-link>
+
+10
+Note .gitignore
     there are some files or folders that should not be committed or pushed to github
     such files and folders are kep in the .gitignore file.

@@ -1,4 +1,4 @@
-# sort(key, reverse)
+# sort(key:optional, reverse:optional)
 # sort method can take two parameters a key and a reverse
 # reverse takes boolean type and key takes a function as parameters
 
@@ -9,7 +9,7 @@ print(result)  #none
 print(data) # [5, 11, 12, 12, 13, 23, 23, 42, 44, 55]
 
 
-data.sort(reverse=True)
+data.sort(reverse=True) # descending order
 print(data) # [55, 44, 42, 23, 23, 13, 12, 12, 11, 5]
 
 
@@ -17,7 +17,7 @@ data = ["mango","apple","banana","pineapple","you"]
 data.sort()
 print(data) # ['apple', 'banana', 'mango', 'pineapple', 'you']
 
-data.sort(reverse=True)
+data.sort(reverse=True) # descending order
 print(data)  # ['you', 'pineapple', 'mango', 'banana', 'apple']
 
 

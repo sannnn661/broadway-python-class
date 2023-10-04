@@ -1,28 +1,25 @@
 
 
-message = "hello world"
-# capitalize()
-result = message.capitalize()
+message = "hello world bABE"
+
+# 1.  capitalize()
+result = message.capitalize() # it returns because string is immutable
 print(result) #  Hello world
 
-#title()
+# 2. title()
 result = message.title()
 print(result) #Hello World
 
-#upper
+# 3. upper
 result =message.upper()
 print(result) # HELLO WORLD
 
-
-result=message.split("o")
-print(result) # ['hell', ' w', 'rld']
-
-# lower()
+# 4. lower
 result = message.lower()
-print(result)  #
+print(result)
 
 
-# split()
+# 5. split()
 message = "hello world"
 result = message.split()
 print(result)  # ['hello', 'world']
@@ -35,8 +32,11 @@ message = "hello world"
 result = message.split("o")
 print(result)  # ["hell", ' w', 'rld']
 
+message = "hello world"
+result = message.split("l")
+print(result)  # ["he, "", "o wor", "d"]
 
-# join()
+# 6. join()
 data = ["hell", ' w', 'rld']
 result = "o".join(data)
 print(result)  # hello world
@@ -45,15 +45,26 @@ data = ["hello", "world"]
 result = " ".join(data)
 print(result)  # "hello world"
 
-# find()
+data = ["hello","world"]
+result = " ".join(data)
+print(result)
+
+
+
+
+# 7. find()
 message = "hello world"
 result = message.find('orl')
+
 print(result)  # 7
 
+message = "hello world"
+result = message.find('abc')
+print(result)
 # If we give the subset not present in the string then find() returns -1
 
 
-# replace()
+# 8. replace()
 
 message="hello world"
 result = message.replace("hello","hElLo")

@@ -1,6 +1,6 @@
 # Strings are the immutable datatype in Python
-# They are also sequential types like list. So, indexing and slicing are possible
-# in the string
+# They are also sequential types like list. So, indexing and slicing are possible in the string
+# A single character enclosed in the quotes is also a string
 
 # Creating an empty string
 a = str()  # empty string
@@ -34,7 +34,8 @@ print(message)
 
 
 
-
+a = 'hello world.I\'m learning python'
+print(a) # hello world.I'm learning python
 
 
 

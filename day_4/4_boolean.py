@@ -1,4 +1,4 @@
-# True and False are hte boolean types in Python
+# True and False are the boolean types in Python
 # True and False are also the keywords in Python
 
 

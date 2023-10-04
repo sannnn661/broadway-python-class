@@ -7,7 +7,8 @@ message="hello world"
 print(message[0]) # h
 print (message[-1]) # d
 print(message[5]) # space
-
+#print(message[69])  # Error
+#print(message[-6969]) # Error
 
 # slicing
 
@@ -32,14 +33,28 @@ print(message[9:-11]) #
 
 # Methods
 
-# Built in fucntionsm
+# Built in functions
 
 message = "Hello"
 
-message[2] = [L] # It is not possible because string is immutable
+#message[2] = [L] # It is not possible because string is immutable
 
  # print (message)
 
 del message # del is a keyword that deletes the object
+
+
+data = "hello world. I am learning python"
+
+print (data[:6]) #  "hello "
+print(data[4:]) #  " o world. I am learning python "
+print(data[0:4]) #  "hell"
+print(data[2:8]) # "llo wo"
+print(data[9:3]) # " "
+print(data[-2:-8]) # " "
+print(data[-9:-2]) # "ng pyth"
+print(data[-8:7]) # " "
+print(data[2:9:2]) # "lowr"
+
 
 
